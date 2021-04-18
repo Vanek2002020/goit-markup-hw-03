@@ -22,57 +22,56 @@
                     <li class="header-link"><a class="header-link-style " href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <a class="header-link-style-contacts" href="mailto:info@devstudio.com"> info@devstudio.com</a>
-            <a class="header-link-style-contacts" href="telto:+380961111111"> +38 096 111 11 11</a>
+            <ul class="header-link-contacts">
+                <li> <a class="header-link-style-contacts" href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
+                <li> <a class="header-link-style-contacts" href="telto:+380961111111"> +38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
     <main>
-        <section class="container main-section">
-            <div class="container"></div>
-            <h1 class="main-title">Эффективные решения <br>для вашего бизнеса</h1>
-            <button class="main-title-button" type="button">Заказать услугу</button>
+        <section class=" main-section">
+            <div class="container">
+                <h1 class="main-title">Эффективные решения <br>для вашего бизнеса</h1>
+                <button class="main-title-button" type="button">Заказать услугу</button>
             </div>
         </section>
-        <section class="second-section">
+        <section>
             <div class="container">
-                <section>
-
-                    <ul class="notions">
-                        <li class="notions-list">
-                            <h3 class="ul-title-bold">Внимание к деталям</h3>
-                            <p class="ul-title-par">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                        </li>
-                        <li class="notions-list">
-                            <h3 class="ul-title-bold">Пунктуальность</h3>
-                            <p class="ul-title-par">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                        </li>
-                        <li class="notions-list">
-                            <h3 class="ul-title-bold">Планирование</h3>
-                            <p class="ul-title-par">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                        </li>
-                        <li class="notions-list">
-                            <h3 class="ul-title-bold">Современные технологии</h3>
-                            <p class="ul-title-par">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                        </li>
-                    </ul>
-
-                </section>
-                <section class="section-about">
-                    <h2 class="section-title">Чем мы занимаемся</h2>
-                    <div class="card-set">
-                        <ul class="section-list-work ">
-                            <li class="section-list"><img src="./image/1/img1.jpg" width="370" height="294" alt="На столе лист, на листе блок схемы"></li>
-                            <li class="section-list"><img src="./image/1/img2.jpg" width="370" height="294" alt="Телефон, ноутбук, телефизор"></li>
-                            <li class="section-list"><img src="./image/1/img3.jpg" width="370" height="294" alt="Планшет, пятиугольник цветов"></li>
-                        </ul>
-                    </div>
+                <ul class="notions">
+                    <li class="notions-list">
+                        <h3 class="ul-title-bold">Внимание к деталям</h3>
+                        <p class="ul-title-par">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="notions-list">
+                        <h3 class="ul-title-bold">Пунктуальность</h3>
+                        <p class="ul-title-par">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="notions-list">
+                        <h3 class="ul-title-bold">Планирование</h3>
+                        <p class="ul-title-par">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="notions-list">
+                        <h3 class="ul-title-bold">Современные технологии</h3>
+                        <p class="ul-title-par">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
             </div>
-            </section>
+        </section>
+        <section class="section-about">
+            <div class="container">
+                <h2 class="section-title">Чем мы занимаемся</h2>
+                <ul class="section-list-work ">
+                    <li class="section-list"><img src="./image/1/img1.jpg" width="370" height="294" alt="На столе лист, на листе блок схемы"></li>
+                    <li class="section-list"><img src="./image/1/img2.jpg" width="370" height="294" alt="Телефон, ноутбук, телефизор"></li>
+                    <li class="section-list"><img src="./image/1/img3.jpg" width="370" height="294" alt="Планшет, пятиугольник цветов"></li>
+                </ul>
+            </div>
+        </section>
         </section>
         <section class="about-us">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
-                <ul class="section-list">
+                <ul class="section-list-team">
                     <li class="item"><img src="./image/1/card1.jpg" width="270" height="260" alt="Человек 1">
                         <h3 class="team-name">Игорь Демьяненко</h3>
                         <p class="team-special">Product Designer</p>
@@ -94,14 +93,16 @@
         </section>
     </main>
     <footer class="footer">
-        <address class="footer-adress">
-            <a class="footer-title" href="./index.html"><span class="footer-title-color">Web</span><span class="footer-title-color-w">Studio</span></a>
-            <ul>
-                <li><a  class="footer-li-map" href="https://goo.gl/maps/kzve8S5sdwJXSWWp6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a  class="footer-li"href="telto:+380961111111">+38 099 111 11 11</a></li>
-                <li><a  class="footer-li" href="mailto:info@devstudio.com">info@example.com</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <address class="footer-adress">
+                    <a class="footer-title" href="./index.html"><span class="footer-title-color">Web</span><span class="footer-title-color-w">Studio</span></a>
+                    <ul>
+                        <li><a  class="footer-li-map" href="https://goo.gl/maps/kzve8S5sdwJXSWWp6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li><a  class="footer-li"href="telto:+380961111111">+38 099 111 11 11</a></li>
+                        <li><a  class="footer-li" href="mailto:info@devstudio.com">info@example.com</a></li>
+                    </ul>
+                </address>
+        </div>
         <footer>
 </body>
 
