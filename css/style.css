@@ -336,10 +336,13 @@
  
  .filters-list {
      display: inline-flex;
+     margin-bottom: 55px;
+     margin-top: 100px;
  }
  
  .list-container {
      justify-content: space-between;
+     display: -webkit-inline-box;
  }
  
  .filters-btn {
@@ -359,7 +362,15 @@
      color: var(--color-white);
  }
  
+ .list-offers-section {
+     margin-bottom: 95px;
+ }
+ 
  .list-offers {
      display: inline-block;
      margin-right: 30px;
+ }
+ 
+ .list-offers:nth-child(3n+3) {
+     margin-right: 0;
  }
